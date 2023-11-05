@@ -61,20 +61,9 @@ INSTRUCCION:
     | ESCRITURA
     | ASIGNACION_VARIABLE
     | LECTURA_DATOS
-    | EXPRESION
 ;
 
 /*------------------EXPRESIONES-------------------------*/
-
-EXPRESION:
-    NUMEROS
-    | ID
-    | EXPRESION_SUMA
-;
-
-EXPRESION_SUMA:
-    NUMEROS SUMA EXPRESION {printf("%d + %d", $1, atoi(yytext));}
-    | ID SUMA EXPRESION
 
 /*------------------ESCRITURA-------------------------*/
 ESCRITURA:

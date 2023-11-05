@@ -1,3 +1,5 @@
 inicio
-1010101 + 1;
+escribir(10);
+var1 := 1;
+escribir(var1);
 fin
