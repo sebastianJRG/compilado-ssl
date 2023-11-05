@@ -1,3 +1,11 @@
 *.exe
 *.bat
 *.sh
+
+ejecutar.bat
+ejecutar.sh
+compilar.bat
+compilar.sh
+
+compilador
+compilador.exe
